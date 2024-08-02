@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6db67ad04605a548921aba43ffd31e9, type: 3}
+  m_Name: CustomGUIElementList
+  m_EditorClassIdentifier: 
+  RelatedPropertiesList:
+  - Bool: _Use_Mask_Map
+    PropertiesToShow:
+    - _MaskMap
+    PropertiesToHide:
+    - _Metallic
+    - _AO
+    - _Smoothness
+  - Bool: _Use_Albedo
+    PropertiesToShow:
+    - _Albedo
+    - _Color
+    - _Tiling
+    - _Blending
+    PropertiesToHide: []
+  - Bool: _Use_Normal
+    PropertiesToShow:
+    - _Normal
+    PropertiesToHide: []
+  - Bool: _Use_Emissive
+    PropertiesToShow:
+    - _Emissive
+    PropertiesToHide: []
+  - Bool: _Use_Albedo_Alpha_Opacity
+    PropertiesToShow:
+    - _Alpha_Clip_Threshold
+    - _Alpha_Intensity
+    PropertiesToHide:
+    - _Alpha_Clip_Threshold
+    - _Alpha_Intensity
+  - Bool: _Moves
+    PropertiesToShow:
+    - _MoveSpeed
+    - _MoveDirection
+    PropertiesToHide: []
+  - Bool: _Use_World_Space
+    PropertiesToShow: []
+    PropertiesToHide: []
