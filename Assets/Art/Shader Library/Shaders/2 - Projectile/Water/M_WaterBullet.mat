@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5016866282720685320
+--- !u!114 &-2615784737854334705
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,35 +20,32 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Toon
-  m_Shader: {fileID: -6465566751694194690, guid: 46f220ac6b1e0af42aab3b18cb786eb2,
+  m_Name: M_WaterBullet
+  m_Shader: {fileID: -6465566751694194690, guid: 77a85dcec52ae7b47be7e5676e73bcfc,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ADDITIONAL_LIGHTS
-  - _ADDITIONAL_LIGHT_SHADOWS
-  - _MAIN_LIGHT_SHADOWS
-  - _MAIN_LIGHT_SHADOWS_CASCADE
-  - _SHADOS_SOFT
+  - _ALPHAPREMULTIPLY_ON
+  - _ALPHATEST_ON
+  - _SPECULAR_SETUP
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
+  - DepthOnly
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Albedo_Texture:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+    - _Normal_Texture:
+        m_Texture: {fileID: 2800000, guid: d45399d3a8a9d484e9ea7c313064c921, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -65,24 +62,36 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ADDITIONAL_LIGHTS: 1
-    - _ADDITIONAL_LIGHT_SHADOWS: 1
-    - _Edge_Diffuse: 0
-    - _Edge_Distance_Attenuation: 0
-    - _Edge_Rim: 0.783
-    - _Edge_Rim_Offset: 0
-    - _Edge_Shadow_Attenuation: 0
-    - _Edge_Specular: 0
-    - _Edge_Specular_Offset: 0
-    - _Float: 1.01
-    - _MAIN_LIGHT_SHADOWS: 1
-    - _MAIN_LIGHT_SHADOWS_CASCADE: 1
+    - _AlphaClip: 1
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 2
+    - _Displacement_Intensity: 0.0156
+    - _Displacement_Tiling: 10
+    - _Dissolve: 0
+    - _Distortion_Intensity: 0.003
+    - _Distortion_Scale: 5
+    - _DstBlend: 10
+    - _Fresnel_Power: 5
+    - _Normal_Strength: 1
+    - _Normal_Tiling: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rim_Threshold: 0
-    - _SHADOS_SOFT: 1
-    - _Shadow_Intensity: 1
-    - _Smoothness: 1.089
-    m_Colors: []
+    - _ReceiveShadows: 1
+    - _Size: 1
+    - _Smoothness: 0.8
+    - _SrcBlend: 1
+    - _Surface: 1
+    - _WorkflowMode: 0
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Displacement_Movement: {r: 0.2, g: 0, b: 0, a: 0}
+    - _Dissolve_Movement: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Distortion_Movement: {r: 0.02, g: 0, b: 0, a: 0}
+    - _Specular: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
