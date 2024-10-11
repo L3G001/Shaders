@@ -78,7 +78,7 @@ void AddAdditionalLights_float(float Smoothness, float3 WorldPosition, float3 Wo
         Specular += thisSpecular;
 
         if (thisDiffuse > highestDiffuse) {
-            highestDiffuse = thisDiffuse;
+            highestDiffuse += thisDiffuse;
         Color += light.color - saturate(MainColor);
         }
     }
