@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MS_Day&Night
+  m_Shader: {fileID: -6465566751694194690, guid: aa2dcc5e873ce1d4e8cd15ee815f37c6,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Moon_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Bottom_Gradient_Blend: 0.3
+    - _Cloud_Density_Max: 0.353
+    - _Cloud_Density_Min: 0.025
+    - _Cloud_Intensity: 10
+    - _Cloud_Position: 3.07
+    - _Cloud_Scale_1: 1
+    - _Cloud_Texture_Scale: 0.05
+    - _Has_Stars: 1
+    - _Horizon_Blend: 9.95
+    - _Moon_Phase: 0.5
+    - _Moon_Phase_Size: 0.9
+    - _Moon_Size: 0.1
+    - _Offset: 0.97
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rotation: 0
+    - _Secondary_Cloud_Density_Max: 0.118
+    - _Secondary_Cloud_Density_Min: 0
+    - _Secondary_Cloud_Intensity: 10
+    - _Star_Height: 445
+    - _Star_Intensity: 610.9
+    - _Star_Power: 60
+    - _SunSize: 0.2
+    - _Sun_Size: 0.2
+    - _Top_Gradient_Blend: 0.4
+    m_Colors:
+    - _Bottom_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0}
+    - _Cloud_Animation_Speed: {r: 1, g: 5, b: 0, a: 0}
+    - _Cloud_Color: {r: 0.4433962, g: 0.102483094, b: 0.18262032, a: 0}
+    - _Cloud_Scale: {r: 50, g: 50, b: 0, a: 0}
+    - _Day_Color: {r: 1, g: 0.08955224, b: 0, a: 0}
+    - _Horizon_Color: {r: 0.28235295, g: 0.14117648, b: 0.2089939, a: 0}
+    - _MainLightDirection: {r: -0.21512647, g: 0.62667155, b: 0.7490016, a: 0}
+    - _MainLightRight: {r: 0.96114135, g: -0.000000014901161, b: 0.27605677, a: 0}
+    - _MainLightUp: {r: 0.17299691, g: 0.7792835, b: -0.60231996, a: 0}
+    - _Moon_Color: {r: 410.1119, g: 0, b: 0, a: 0}
+    - _Night_Color: {r: 0.5283019, g: 0, b: 0, a: 0}
+    - _Secondary_Cloud_Color: {r: 0.3962264, g: 0, b: 0, a: 1}
+    - _Secondary_Cloud_Offset: {r: -2.85, g: -35.67, b: 0, a: 0}
+    - _Star_Color: {r: 512, g: 512, b: 512, a: 0}
+    - _Sun_Color: {r: 28.51895, g: 24.845266, b: 6.5916443, a: 0}
+    - _Top_Color: {r: 0, g: 0.078817755, b: 0.31132078, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3681834677790357942
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

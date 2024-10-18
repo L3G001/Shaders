@@ -1177,13 +1177,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26454437, y: 0.019617759, z: -0.52636755, w: 0.8078172}
+  m_LocalRotation: {x: 0, y: -0.13938911, z: 0, w: 0.9902377}
   m_LocalPosition: {x: -44.736, y: 0.123, z: 0.295}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 26.619, y: -16.025, z: -69.99}
+  m_LocalEulerAnglesHint: {x: 0, y: -16.025, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1423,6 +1423,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 40802190}
   m_LocalEulerAnglesHint: {x: -0.319, y: 0, z: 0}
+--- !u!1 &681642304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681642306}
+  - component: {fileID: 681642305}
+  m_Layer: 0
+  m_Name: LightManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &681642305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681642304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0021968b7337f64458a14702767d7941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skyboxMaterial: {fileID: 2100000, guid: 80a17b6b32ea16548a62bce0197c9353, type: 2}
+  _mainLight: {fileID: 410087040}
+--- !u!4 &681642306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681642304}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -44.04532, y: -0.03285417, z: 1.4900941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &748804844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,6 +4188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bruja_low
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f8f9a5f2385761542802d9c2dbb01bac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1159909012735024550, guid: f8f9a5f2385761542802d9c2dbb01bac,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4451,3 +4502,4 @@ SceneRoots:
   - {fileID: 1669986408}
   - {fileID: 2066983924}
   - {fileID: 2098702545}
+  - {fileID: 681642306}
