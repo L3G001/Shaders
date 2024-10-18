@@ -25,6 +25,9 @@
             "m_Id": "f4289d90c9874c978a00df27c203d487"
         },
         {
+            "m_Id": "2fb79f3543374d46bf0b1dc4bd12066a"
+        },
+        {
             "m_Id": "a684aad612fd4d5fa94dc8b7c0aad6d6"
         },
         {
@@ -104,6 +107,9 @@
         },
         {
             "m_Id": "18950743001f487f9eabc35c09b74408"
+        },
+        {
+            "m_Id": "e2e67f46c37e4613a7a5e73fa64e9ea6"
         }
     ],
     "m_Keywords": [],
@@ -539,6 +545,12 @@
         },
         {
             "m_Id": "c7cc239149fc4d0189e127e49ddb5b64"
+        },
+        {
+            "m_Id": "0ea7ce4b862346bf8cbb6545dec69d6c"
+        },
+        {
+            "m_Id": "80f4a9c260f6409c89bea17aab7c2524"
         }
     ],
     "m_GroupDatas": [],
@@ -668,6 +680,20 @@
                     "m_Id": "e62b2a5c0efe4901b14b1514c38426b6"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "0ea7ce4b862346bf8cbb6545dec69d6c"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "e68d7fe8db694cac8d0c4a16f07359b5"
+                },
+                "m_SlotId": 1855887524
             }
         },
         {
@@ -1452,6 +1478,20 @@
                     "m_Id": "a42a3215bf5445f08b6f65b19f5d917a"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "80f4a9c260f6409c89bea17aab7c2524"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "baf2441e02ba4e17901d0a0962216022"
+                },
+                "m_SlotId": 1855887524
             }
         },
         {
@@ -3026,7 +3066,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "_Speed",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 0.05000000074505806,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -3215,6 +3255,21 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "09360355090b4f72bdb004f38d4d19b9",
+    "m_Id": 0,
+    "m_DisplayName": "Secondary Cloud Variation Speed",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -3765,6 +3820,42 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "0ea7ce4b862346bf8cbb6545dec69d6c",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -940.9998779296875,
+            "y": 571.9999389648438,
+            "width": 190.99993896484376,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ce77e71447fe460b859bf8ff6a152b7e"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "e2e67f46c37e4613a7a5e73fa64e9ea6"
     }
 }
 
@@ -4572,10 +4663,10 @@
             "m_Id": "0f9c0999d1ab4e58b27ba66ede465533"
         },
         {
-            "m_Id": "914705ab4e3c42d481bebd257243634e"
+            "m_Id": "e2e67f46c37e4613a7a5e73fa64e9ea6"
         },
         {
-            "m_Id": "46d9c4914817442789cbc88ac56c3fcd"
+            "m_Id": "914705ab4e3c42d481bebd257243634e"
         },
         {
             "m_Id": "61c643973d14493dae7abc5b859e618f"
@@ -4584,7 +4675,13 @@
             "m_Id": "f4289d90c9874c978a00df27c203d487"
         },
         {
+            "m_Id": "2fb79f3543374d46bf0b1dc4bd12066a"
+        },
+        {
             "m_Id": "137db5546a294f09a229489d90c64594"
+        },
+        {
+            "m_Id": "46d9c4914817442789cbc88ac56c3fcd"
         },
         {
             "m_Id": "18950743001f487f9eabc35c09b74408"
@@ -5207,6 +5304,34 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "2fb79f3543374d46bf0b1dc4bd12066a",
+    "m_Guid": {
+        "m_GuidSerialized": "abeaac21-6202-46f0-970f-7b194b8c7804"
+    },
+    "m_Name": "Secondary Cloud Variation Speed",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Secondary Cloud Variation Speed",
+    "m_DefaultReferenceName": "_Secondary_Cloud_Variation_Speed",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
 }
 
 {
@@ -6748,9 +6873,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -877.9999389648438,
-            "y": 1144.0,
-            "width": 146.99993896484376,
+            "x": -878.0,
+            "y": 1208.0,
+            "width": 147.0,
             "height": 153.0
         }
     },
@@ -7092,7 +7217,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "_Speed",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 0.029999999329447748,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -10243,6 +10368,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "80f4a9c260f6409c89bea17aab7c2524",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1145.0,
+            "y": 958.0,
+            "width": 250.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "09360355090b4f72bdb004f38d4d19b9"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "2fb79f3543374d46bf0b1dc4bd12066a"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "81e353dc4f094203be7c591c2e51ad4d",
     "m_Id": 0,
@@ -13372,13 +13533,13 @@
     },
     "m_Name": "Animated Clouds",
     "m_DrawState": {
-        "m_Expanded": false,
+        "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -876.9999389648438,
+            "x": -878.0,
             "y": 1017.0000610351563,
-            "width": 150.00006103515626,
-            "height": 118.99993896484375
+            "width": 159.99993896484376,
+            "height": 190.99993896484376
         }
     },
     "m_Slots": [
@@ -14974,6 +15135,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ce77e71447fe460b859bf8ff6a152b7e",
+    "m_Id": 0,
+    "m_DisplayName": "Cloud Variation Speed",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "cf03004016bf46a58fd27cc5e32a9eb5",
     "m_Id": 0,
@@ -16478,6 +16654,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "e2e67f46c37e4613a7a5e73fa64e9ea6",
+    "m_Guid": {
+        "m_GuidSerialized": "a658a04b-2e6a-4980-b582-d33599114057"
+    },
+    "m_Name": "Cloud Variation Speed",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Cloud Variation Speed",
+    "m_DefaultReferenceName": "_Cloud_Variation_Speed",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "e3d40e3e140f4b0eb76bb1285b6b685b",
@@ -16782,7 +16986,7 @@
     },
     "m_Name": "Animated Clouds",
     "m_DrawState": {
-        "m_Expanded": false,
+        "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
             "x": -716.0,
