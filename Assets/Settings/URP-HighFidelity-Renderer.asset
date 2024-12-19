@@ -72,7 +72,8 @@ MonoBehaviour:
   - {fileID: 6580268094006965291}
   - {fileID: 36451673992425201}
   - {fileID: 683038055900235541}
-  m_RendererFeatureMap: adc0de57c6d2eee5f9992cb6fce5684e2b341fbef7ce515bf16ec9b79a80810015c701327ea37a09
+  - {fileID: 1092985517905449831}
+  m_RendererFeatureMap: adc0de57c6d2eee5f9992cb6fce5684e2b341fbef7ce515bf16ec9b79a80810015c701327ea37a09679366a389102b0f
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -127,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: RenderObjects
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: RenderObjects
     Event: 450
@@ -174,6 +175,23 @@ MonoBehaviour:
   injectionPoint: 550
   requirements: 0
   passIndex: 1
+--- !u!114 &1092985517905449831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: ASCII Art
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: 57c15d38db305c2438d69c05acad9888, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &5650018606087182841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: Outline
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   passMaterial: {fileID: 2100000, guid: 445294b89d7579f48bcb22b1dc85b088, type: 2}
   injectionPoint: 450
   requirements: 4
@@ -203,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: Render Objects Outline
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: Render Objects Outline
     Event: 400
