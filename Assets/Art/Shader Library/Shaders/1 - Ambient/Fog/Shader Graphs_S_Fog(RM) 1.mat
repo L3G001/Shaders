@@ -26,6 +26,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -63,7 +64,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _AlphaToMask: 0
     - _Blend: 0
     - _CastShadows: 1
@@ -100,6 +101,7 @@ Material:
     - _Offset: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0}
+    - _Vector2: {r: -0.1, g: 0.1, b: 0, a: 0}
     - _Vector4: {r: 0, g: 0, b: 0, a: 1}
     - _offset: {r: 0.5, g: 0.5, b: 0.5, a: 0}
   m_BuildTextureStacks: []

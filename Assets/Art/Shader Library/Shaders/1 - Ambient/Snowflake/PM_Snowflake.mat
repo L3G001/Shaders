@@ -23,7 +23,8 @@ Material:
   m_Name: PM_Snowflake
   m_Shader: {fileID: -6465566751694194690, guid: fc6f783d9e56d2844958f0ec67769d91,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: -876546973899608171, guid: fc6f783d9e56d2844958f0ec67769d91,
+    type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -37,30 +38,10 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Branch_Thickness: 0.05
-    - _Branches: 5
-    - _Color_from_Particle_System: 1
-    - _Cut_Threshold: 0.5
     - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Sides: 6
-    - _Star_Growth: 0
-    m_Colors:
-    - _Snowflake_Color: {r: 1, g: 1, b: 1, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

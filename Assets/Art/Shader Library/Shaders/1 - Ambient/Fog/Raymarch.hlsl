@@ -4,7 +4,7 @@
 void raymarch_float( float3 rayOrigin, float3 rayDirection, float numSteps, float stepSize,
                      float densityScale, UnityTexture3D volumeTex, UnitySamplerState volumeSampler,
                      float3 offset, float numLightSteps, float lightStepSize, float3 lightDir,
-                     float lightAbsorb, float darknessThreshold, float transmittance, out float3 result )
+                     float lightAbsorb, float darknessThreshold, float transmittance, float noise, out float3 result )
 {
 	float density = 0;
 	float transmission = 0;
@@ -18,7 +18,7 @@ void raymarch_float( float3 rayOrigin, float3 rayDirection, float numSteps, floa
 		//The blue dot position
 		float3 samplePos = rayOrigin+offset;
 		float sampledDensity = SAMPLE_TEXTURE3D(volumeTex, volumeSampler, samplePos).r;
-		density += sampledDensity*densityScale;
+		density += sampledDensity*densityScale*noise;
 
 		//light loop
 		float3 lightRayOrigin = samplePos;
