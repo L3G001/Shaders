@@ -28,7 +28,14 @@
             "m_Id": "c20b6ca03b5e46dfa478f8fa9e1be370"
         }
     ],
-    "m_Keywords": [],
+    "m_Keywords": [
+        {
+            "m_Id": "6ea971b9b12a4ef897a0d602b345808a"
+        },
+        {
+            "m_Id": "0966e0901af640a4978f68506c68dc09"
+        }
+    ],
     "m_Dropdowns": [],
     "m_CategoryData": [
         {
@@ -417,6 +424,31 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "0966e0901af640a4978f68506c68dc09",
+    "m_Guid": {
+        "m_GuidSerialized": "828ff312-7b42-4ce7-b3b6-cc7be438e506"
+    },
+    "m_Name": "Soft Shadows",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Soft Shadows",
+    "m_DefaultReferenceName": "_SOFT_SHADOWS",
+    "m_OverrideReferenceName": "_SHADOWS_SOFT",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_KeywordStages": 2,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
@@ -863,6 +895,12 @@
         },
         {
             "m_Id": "274e338982124923a425a16c154f90fe"
+        },
+        {
+            "m_Id": "6ea971b9b12a4ef897a0d602b345808a"
+        },
+        {
+            "m_Id": "0966e0901af640a4978f68506c68dc09"
         }
     ]
 }
@@ -1427,6 +1465,31 @@
     "m_Property": {
         "m_Id": "69f18051149643fe801686baba67747d"
     }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "6ea971b9b12a4ef897a0d602b345808a",
+    "m_Guid": {
+        "m_GuidSerialized": "218ce0c9-3587-429d-a99a-6b20b428b60b"
+    },
+    "m_Name": "Shadows Cascade",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Shadows Cascade",
+    "m_DefaultReferenceName": "_SHADOWS_CASCADE",
+    "m_OverrideReferenceName": "_MAIN_LIGHT_SHADOWS_CASCADE",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_KeywordStages": 2,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
