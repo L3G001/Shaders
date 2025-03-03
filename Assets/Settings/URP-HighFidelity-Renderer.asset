@@ -1,5 +1,71 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7569564904231758885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84e51b6c93ad0a4f97f1973e1caf05b, type: 3}
+  m_Name: ScreenSpaceOutlines
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  renderPassEvent: 350
+  outlinesLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  outlineSettings:
+    outlineColor: {r: 0, g: 0, b: 0, a: 1}
+    outlineScale: 1.5
+    depthThreshold: 30
+    robertsCrossMultiplier: 100
+    normalThreshold: 0.5
+    steepAngleThreshold: 0.2
+    steepAngleMultiplier: 25
+    colorFormat: 2
+    depthBufferBits: 0
+    filterMode: 2
+    backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    perObjectData: 0
+    enableDynamicBatching: 0
+    enableInstancing: 0
+--- !u!114 &-5152100992011718612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa996712a77c2e478a412ea23d99cc0, type: 3}
+  m_Name: GrabScreenFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    TextureName: _GrabPassTransparent
+    LayerMask:
+      m_Bits: 0
+--- !u!114 &-4186190277758078717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 6b07173258164ed4c8981648d879b5c4, type: 2}
+  injectionPoint: 550
+  requirements: 4
+  passIndex: 0
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: CRT
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   passMaterial: {fileID: 2100000, guid: ebcfc5df35dad5a4c9285b6d820579e2, type: 2}
   injectionPoint: 600
   requirements: 4
@@ -85,13 +151,15 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
+  - {fileID: -1426046626047224108}
   - {fileID: 5650018606087182841}
   - {fileID: 6580268094006965291}
   - {fileID: 36451673992425201}
   - {fileID: 683038055900235541}
   - {fileID: 1092985517905449831}
-  - {fileID: -1426046626047224108}
-  m_RendererFeatureMap: adc0de57c6d2eee5f9992cb6fce5684e2b341fbef7ce515bf16ec9b79a80810015c701327ea37a09679366a389102b0fd4964f2d26aa35ec
+  - {fileID: -7569564904231758885}
+  - {fileID: -4186190277758078717}
+  m_RendererFeatureMap: adc0de57c6d2eee5d4964f2d26aa35ecf9992cb6fce5684e2b341fbef7ce515bf16ec9b79a80810015c701327ea37a09679366a389102b0fdb93002bd380f3960331092c1faae7c5
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -146,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: RenderObjects
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: RenderObjects
     Event: 450
@@ -223,7 +291,7 @@ MonoBehaviour:
   m_Name: Outline
   m_EditorClassIdentifier: 
   m_Active: 0
-  passMaterial: {fileID: 2100000, guid: 445294b89d7579f48bcb22b1dc85b088, type: 2}
+  passMaterial: {fileID: 2100000, guid: 2337dd5ad0bbe084d9530503108280d6, type: 2}
   injectionPoint: 450
   requirements: 4
   passIndex: 0
@@ -239,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: Render Objects Outline
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: Render Objects Outline
     Event: 400

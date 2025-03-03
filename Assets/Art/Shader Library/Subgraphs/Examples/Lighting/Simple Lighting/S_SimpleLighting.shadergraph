@@ -34,6 +34,12 @@
         },
         {
             "m_Id": "0966e0901af640a4978f68506c68dc09"
+        },
+        {
+            "m_Id": "2b7717df38e54c86bad29dd13e1d53b3"
+        },
+        {
+            "m_Id": "48f6fb9c7b044a818fe29f0b5d458ad6"
         }
     ],
     "m_Dropdowns": [],
@@ -827,6 +833,31 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "2b7717df38e54c86bad29dd13e1d53b3",
+    "m_Guid": {
+        "m_GuidSerialized": "3b1e7c46-1539-46a7-892c-d4b480b0404e"
+    },
+    "m_Name": "Aditional Lights Shadows",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Aditional Lights Shadows",
+    "m_DefaultReferenceName": "_ADITIONAL_LIGHTS_SHADOWS",
+    "m_OverrideReferenceName": "_ADDITIONAL_LIGHT_SHADOWS",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_KeywordStages": 2,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "2d65a284e6644fb393b0c3bae468e00a",
@@ -901,6 +932,12 @@
         },
         {
             "m_Id": "0966e0901af640a4978f68506c68dc09"
+        },
+        {
+            "m_Id": "2b7717df38e54c86bad29dd13e1d53b3"
+        },
+        {
+            "m_Id": "48f6fb9c7b044a818fe29f0b5d458ad6"
         }
     ]
 }
@@ -1149,6 +1186,31 @@
     "m_ShaderOutputName": "Sampler",
     "m_StageCapability": 3,
     "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "48f6fb9c7b044a818fe29f0b5d458ad6",
+    "m_Guid": {
+        "m_GuidSerialized": "30a72dbf-918f-48bb-b4d1-b313930b5d3e"
+    },
+    "m_Name": "Aditional Lights",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Aditional Lights",
+    "m_DefaultReferenceName": "_ADITIONAL_LIGHTS",
+    "m_OverrideReferenceName": "_ADDITIONAL_LIGHTS",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_KeywordStages": 2,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {

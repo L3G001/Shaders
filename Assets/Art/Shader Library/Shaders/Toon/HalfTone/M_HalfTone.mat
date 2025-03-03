@@ -63,22 +63,27 @@ Material:
     m_Floats:
     - _ADDITIONAL_LIGHTS: 1
     - _ADDITIONAL_LIGHT_SHADOWS: 1
-    - _Density: 150
-    - _First_Edge: 0
+    - _Density: 10
+    - _First_Edge: 0.585
     - _Intensity: 1
     - _Is_Reflective: 1
     - _MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
-    - _Offset: 1
+    - _Offset: 0.47
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SHADOWS_SOFT: 1
     - _Smoothness: 0.683
     - _Specular_Blur: 0
     - _Specular_Offset: 0.5
-    - _Threshold: 0.673
+    - _Threshold: 1.154
     m_Colors:
+    - _Blend: {r: 40, g: 40, b: 1, a: 0}
+    - _Blending: {r: 40, g: 40, b: 3, a: 0}
+    - _Dots_Blending: {r: 40, g: 40, b: 0, a: 0}
     - _Dots_Color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+    - _Dots_Tiling: {r: 1, g: 1, b: 1, a: 0}
     - _Specular_Color: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
