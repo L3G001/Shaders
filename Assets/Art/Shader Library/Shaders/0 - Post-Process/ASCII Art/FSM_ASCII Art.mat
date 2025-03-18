@@ -19,7 +19,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -54,6 +55,8 @@ Material:
     - _Added_ASCII_Intensity: 1
     - _Amount_of_ASCII_Characters: 10
     - _Darken_Color: 0.1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Scene_Color: 1
     - _Scene_color: 0
     - _int: 1
