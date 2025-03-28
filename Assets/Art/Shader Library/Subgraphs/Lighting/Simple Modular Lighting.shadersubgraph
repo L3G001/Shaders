@@ -149,6 +149,9 @@
         },
         {
             "m_Id": "4adb3677783a4db7898fdac33e69bc6d"
+        },
+        {
+            "m_Id": "c2e672ad9a27490e83196741e63a6919"
         }
     ],
     "m_GroupDatas": [],
@@ -653,9 +656,9 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "83adf8f2e7124211a04b5b131795a847"
+                    "m_Id": "c2e672ad9a27490e83196741e63a6919"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 727798230
             }
         },
         {
@@ -794,6 +797,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "2dfeb8de245b47a2acdb78a928217ca7"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "c2e672ad9a27490e83196741e63a6919"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "83adf8f2e7124211a04b5b131795a847"
                 },
                 "m_SlotId": 1
             }
@@ -1369,6 +1386,29 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "1cebfdd309ea4d5586454e98fc5a3d39",
+    "m_Id": 1,
+    "m_DisplayName": "ColorOut",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "ColorOut",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -3168,6 +3208,29 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "8325afaf84be41a98e4c6d34c1dfd238",
+    "m_Id": 727798230,
+    "m_DisplayName": "Color In",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Color_In",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubGraphOutputNode",
     "m_ObjectId": "83adf8f2e7124211a04b5b131795a847",
     "m_Group": {
@@ -3178,10 +3241,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2155.0,
-            "y": -82.00000762939453,
+            "x": 2346.0,
+            "y": -82.0,
             "width": 86.0,
-            "height": 77.00001525878906
+            "height": 76.99999237060547
         }
     },
     "m_Slots": [
@@ -4217,6 +4280,51 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "c2e672ad9a27490e83196741e63a6919",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Fog",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 2154.999755859375,
+            "y": -81.99998474121094,
+            "width": 132.0,
+            "height": 94.99998474121094
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "8325afaf84be41a98e4c6d34c1dfd238"
+        },
+        {
+            "m_Id": "1cebfdd309ea4d5586454e98fc5a3d39"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"ce9d0ca8aee70f642976243b678efc56\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "72c11a26-9613-41ff-b1bb-59c4526606dc"
+    ],
+    "m_PropertyIds": [
+        727798230
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
 {
