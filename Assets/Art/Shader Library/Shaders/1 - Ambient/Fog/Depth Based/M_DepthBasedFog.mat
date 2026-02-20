@@ -56,7 +56,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - FogDensity: 1
+    - FogDensity: 0.9
     - FogNoise: 1
     - FogSpeed: 0.3
     - _AlphaClip: 0
@@ -66,8 +66,8 @@ Material:
     - _BlendModePreserveSpecular: 0
     - _CastShadows: 0
     - _Cull: 0
-    - _Depth_Distance: 0.31
-    - _Depth_Falloff: 1
+    - _Depth_Distance: 5
+    - _Depth_Falloff: 0.52
     - _DstBlend: 10
     - _Noise_Variation_Speed: 0.1
     - _Normal_Strength: 0.05
